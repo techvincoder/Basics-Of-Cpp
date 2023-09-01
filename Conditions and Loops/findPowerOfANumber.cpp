@@ -26,4 +26,5 @@ int main()
         ans = ans * x;
         n--;
     }
+    cout << ans << endl;
 }
