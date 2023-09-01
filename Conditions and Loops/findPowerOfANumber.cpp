@@ -13,14 +13,16 @@ x^n (i.e. x raise to the power n)
 
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
-    int x,n;
+int main()
+{
+    int x, n;
     cin >> x >> n;
     int ans = 1;
-    while(n>0){
+    while (n > 0)
+    {
         ans = ans * x;
         n--;
     }
